@@ -1,0 +1,1 @@
+export const calcularTotal = (subTotal: number, incluirIVA: number): number => subTotal + incluirIVA;
