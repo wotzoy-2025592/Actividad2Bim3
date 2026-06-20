@@ -1,0 +1,1 @@
+export const calcularIVA = (subTotal: number): number => subTotal * 0.12;
