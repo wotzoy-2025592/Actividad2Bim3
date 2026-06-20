@@ -75,6 +75,16 @@ async function menuPrincipal(){
             console.log("Total: Q" + total);
             console.log("--------------------------------");
 
+            const finalizar = await pregunta("¿Desea finalizar la compra? (si/no): ");
+
+            if (finalizar.trim().toLowerCase() === "si") {
+                const { limpiarCompras } = await import('./datosProductos.js');
+                limpiarCompras();
+                console.log("Compra finalizada. Carrito reiniciado.");
+            } else {
+                console.log("Compra continúa activa.");
+            }
+
             await pregunta("\nPresiona ENTER para continuar...");
             break;
 

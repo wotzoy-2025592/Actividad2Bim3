@@ -1,0 +1,1 @@
+{"version":3,"file":"calculoSubTotal.js","sourceRoot":"","sources":["../src/calculoSubTotal.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,MAAM,gBAAgB,GAAG,CAAC,cAAwB,EAAU,EAAE;IAEjE,IAAI,QAAQ,GAAG,CAAC,CAAC;IAEjB,cAAc,CAAC,OAAO,CAAC,OAAO,CAAC,EAAE,GAAE,QAAQ,GAAG,QAAQ,GAAG,OAAO,CAAC,CAAA,CAAC,CAAC,CAAC;IAEpE,OAAO,QAAQ,CAAC;AACpB,CAAC,CAAC"}
